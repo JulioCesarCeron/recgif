@@ -1,0 +1,21 @@
+{
+  "root": [
+    "./src/App.tsx",
+    "./src/main.tsx",
+    "./src/vite-env.d.ts",
+    "./src/components/version.tsx",
+    "./src/config/ffmpegLoadConfig.ts",
+    "./src/config/ffmpegLoadConfig.types.ts",
+    "./src/handlers/create-gif.ts",
+    "./src/hooks/useGifRecorder/index.ts",
+    "./src/hooks/useGifRecorder/useGifRecorder.constants.ts",
+    "./src/hooks/useGifRecorder/useGifRecorder.tsx",
+    "./src/hooks/useGifRecorder/useGifRecorder.types.ts",
+    "./src/pages/error-page.tsx",
+    "./src/pages/home.tsx",
+    "./src/pages/record.tsx",
+    "./src/types/wasm.d.ts",
+    "./src/wasm-output/gif_wasm.d.ts"
+  ],
+  "version": "5.9.3"
+}
