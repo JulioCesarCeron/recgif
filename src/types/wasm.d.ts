@@ -1,4 +1,4 @@
-export interface GifWasmModule extends EmscriptenModule {
+export type GifWasmModule = {
   HEAPU8: Uint8Array
   HEAP32: Int32Array
   _malloc(size: number): number

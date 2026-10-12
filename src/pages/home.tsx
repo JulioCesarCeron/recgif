@@ -1,4 +1,4 @@
-limport { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import Version from "../components/version"
 import type { GifWasmModule } from "../types/wasm"
 
