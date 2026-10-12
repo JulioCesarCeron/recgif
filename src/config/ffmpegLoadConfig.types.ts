@@ -1,4 +1,4 @@
-export interface FFMessageLoadConfig {
+export type FFMessageLoadConfig = {
   /**
    * `ffmpeg-core.js` URL.
    *

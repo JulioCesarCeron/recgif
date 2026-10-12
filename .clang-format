@@ -1,0 +1,17 @@
+BasedOnStyle: LLVM
+
+IndentWidth: 2
+ColumnLimit: 80
+
+BreakBeforeBraces: Attach
+AllowAllArgumentsOnNextLine: false
+AlignAfterOpenBracket: BlockIndent
+AlignOperands: true
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+BinPackParameters: false
+BinPackArguments: false
+IndentExternBlock: Indent

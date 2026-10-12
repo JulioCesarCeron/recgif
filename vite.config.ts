@@ -11,7 +11,9 @@ export default defineConfig({
       name: "configure-response-headers",
       configureServer: (server) => {
         server.middlewares.use((_req, res, next) => {
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
           res.setHeader("Cross-Origin-Embedder-Policy", "require-corp")
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
           res.setHeader("Cross-Origin-Opener-Policy", "same-origin")
           next()
         })
